@@ -33,7 +33,7 @@ en:
       label: comment
       action: Comment
     voter_description: supporter
-    vote_action: 'I agree, it\'s a problem!'
+    vote_action: 'I agree, this is a problem!'
     sharing:
       email:
         subject: 'I suggested a %{thing}'
