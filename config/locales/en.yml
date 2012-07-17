@@ -2,9 +2,9 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  app_name: Phone Booth Mapper
+  app_name: 'Problematic Phone Booths'
   map_controls:
-    locate_feature: 'Add a phone booth!'
+    locate_feature: 'Report a phone booth'
     finalize_feature: 'Confirm Location'
     drag_hint: 'Drag me\! Then click confirm.'
     drag_hint_long: 'Drag your location to the center of the map'
@@ -21,19 +21,19 @@ en:
       invalid: 'There are some errors with your point.'
       out_of_bounds: "Point doesn't fall within the defined regions"
     form:
-      header: 'Tell us more...'
-      title_label: Location Name
-      description_label: Description...
+      header: 'Details'
+      title_label: 'Address'
+      description_label: 'What are the problems with this phone booth?'
       submitter_name_label: 'Your Name'
       submit: 'Submit Location'
     purpose: 'This location is a %{type}.'
-    submitted_by: 'added this point %{in_region}'
+    submitted_by: 'identified a phone booth %{in_region}'
     when: 'on %{date} at %{time}'
     comment: 
       label: comment
       action: Comment
     voter_description: supporter
-    vote_action: 'I agree!'
+    vote_action: 'I agree, it\'s a problem!'
     sharing:
       email:
         subject: 'I suggested a %{thing}'
