@@ -154,7 +154,8 @@ html, body, #wrapper {
  * Popularity Filter (HiderSlider)
  */
 .ui-hiderslider-container {
-  overflow: visible;
+  visibility: hidden;
+	overflow: visible;
   position: absolute;
   right: 40px;
   bottom: 50px;
