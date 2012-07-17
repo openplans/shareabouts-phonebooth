@@ -2,9 +2,9 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  app_name: Shareabouts
+  app_name: Phone Booth Mapper
   map_controls:
-    locate_feature: 'Add a location!'
+    locate_feature: 'Add a phone booth!'
     finalize_feature: 'Confirm Location'
     drag_hint: 'Drag me\! Then click confirm.'
     drag_hint_long: 'Drag your location to the center of the map'
@@ -13,11 +13,11 @@ en:
     twitter_signin: 'Sign in with Twitter'
     sign_in: 'sign in with'
   account:
-    my_points: 'My Points'
+    my_points: 'My Phone Booths'
     my_supports: 'Supported'
   feature:
     notice:
-      point_added: 'Thank you! Your point was added to the map. Please, share it with your friends.'
+      point_added: 'Thank you! This phone booth was added to the map.'
       invalid: 'There are some errors with your point.'
       out_of_bounds: "Point doesn't fall within the defined regions"
     form:
@@ -33,7 +33,7 @@ en:
       label: comment
       action: Comment
     voter_description: supporter
-    vote_action: 'Support This!'
+    vote_action: 'I agree!'
     sharing:
       email:
         subject: 'I suggested a %{thing}'
