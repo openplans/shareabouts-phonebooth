@@ -18,7 +18,8 @@ $.widget("ui.shareabout", (function() {
       // Leaflet map options
       map                  : {}, // req: center
       // Map-related
-      tileUrl              : null,
+      tileUrl              : 'http://tilestream-uploads.s3.amazonaws.com/doittgis/28aaf96aa2e7f626c80923a5dbd956b3',
+      // tileUrl              : null,
       tileAttribution      : '',
       initialZoom          : 13,
       markerIcon           : new L.Icon(), //default icon, can be customized
