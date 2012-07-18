@@ -22,7 +22,7 @@ en:
       out_of_bounds: "Point doesn't fall within the defined regions"
     form:
       header: 'Details'
-      title_label: 'Address'
+      title_label: 'Address of the phone booth'
       description_label: 'What are the problems with this phone booth?'
       submitter_name_label: 'Your Name'
       submit: 'Submit Location'
