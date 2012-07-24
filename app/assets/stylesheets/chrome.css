@@ -705,6 +705,7 @@ and (max-device-width : 480px) {
     display: inline;
   }
   #access {
+    visibility: hidden;
     margin: 0.25em 0 0;
     padding: 0;
   }
