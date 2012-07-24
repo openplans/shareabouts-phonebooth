@@ -25,11 +25,12 @@ en:
       title_label: 'Address of the phone booth'
       description_label: 'What are the problems with this phone booth?'
       submitter_name_label: 'Your Name'
+      submitter_email_label: 'Your Email'
       submit: 'Submit Location'
     purpose: 'This location is a %{type}.'
     submitted_by: 'identified a phone booth %{in_region}'
     when: 'on %{date} at %{time}'
-    comment: 
+    comment:
       label: comment
       action: Comment
     voter_description: supporter

@@ -15,6 +15,8 @@
       <div>
         <%= form.label :submitter_name, t("feature.form.submitter_name_label") %>
         <%= form.text_field :submitter_name, :placeholder => t("feature.form.submitter_name_label") %>
+        <%= form.label :submitter_email, t("feature.form.submitter_email_label") %>
+        <%= form.text_field :submitter_email, :placeholder => t("feature.form.submitter_email_label") %>
         <p>
           <span class="sign-in-text">Or <%= t("auth.sign_in") %></span>
           <%= render "shared/sign_in" %>
@@ -41,7 +43,7 @@
       </div>
     </fieldset>
     <div>
-    <%= form.submit t("feature.form.submit")%>  
+    <%= form.submit t("feature.form.submit")%>
     </div>
     </li>
   <% end %>
